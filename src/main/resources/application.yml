@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rentRead_Db
+    username: root
+    password: abc@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+  output:
+    ansi:
+      enabled: always
+  security:
+    user:
+      name: aman
+      password: aman
